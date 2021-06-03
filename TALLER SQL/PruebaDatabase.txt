@@ -1,0 +1,15 @@
+use Prueba;
+
+--Crear Tablas
+
+create table Alumno(
+nombre varchar(50),
+apellido varchar(50),
+edad int,
+DNI varchar(8)
+)
+
+
+--Mostrar el contenido de la tabla
+select * from alumno
+select * from Profesor
