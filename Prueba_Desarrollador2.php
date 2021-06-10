@@ -7,6 +7,9 @@ $valor = 24;
 $lapicero_color = "azul";
 $marca_teclado = "Antryx";
 const MARCAMONITOR = "Lenovo";
+const MARCACUADERNO = "JUSTUS";
+const MARCATAPIZ = "CORSAIR";
 $temperatura_corporal = 37.0;
 $titulo_libro = "Code_Clean"; 
+
 ?>
