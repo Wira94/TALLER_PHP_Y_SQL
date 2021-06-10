@@ -1,3 +1,1 @@
 1. Instalar el ambiente correspondiente
-2. Instalar Xampp
-3. Verificar los puertos
