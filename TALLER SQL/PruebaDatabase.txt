@@ -8,8 +8,25 @@ apellido varchar(50),
 edad int,
 DNI varchar(8)
 )
+ -- copiar tabla de una existente
 
+ create table <tabla_nueva> like <tabla_existente>
 
 --Mostrar el contenido de la tabla
 select * from alumno
 select * from Profesor
+
+--INSERTAR valores a una tabla
+Alumno:
+
+insert into alumno (nombre, apellido, edad, DNI) values (tupla)
+insert into alumno (nombre, apellido, DNI,column4,columna5) values (tupla)
+
+--ALTERAR TABLA 
+--AÑADIR columna
+ALTER TABLE <nombre_tabla_o_entidad> ADD <nombre_columna_nueva> <tipo_dato> <extras>;
+
+
+--Borrar registro de una tabla;
+
+delete from <tabla> where <condicion>

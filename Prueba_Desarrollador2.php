@@ -10,6 +10,6 @@ const MARCAMONITOR = "Lenovo";
 const MARCACUADERNO = "JUSTUS";
 const MARCATAPIZ = "CORSAIR";
 $temperatura_corporal = 37.0;
-$titulo_libro = "Code_Clean"; 
+$titulo_libro = "Code_Clean";
 
 ?>
